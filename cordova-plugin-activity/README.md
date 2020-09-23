@@ -1,4 +1,8 @@
 ## Cordova 调用android原生Activity
+````
+  特别注意 android 项目的包名 必须为 com.example.hello，否则编译不会通过。
+  
+````
 ### 1.准备一个创建好的插件
 [Cordova 自定义插件](https://blog.csdn.net/m0_37609394/article/details/84873861)
 
