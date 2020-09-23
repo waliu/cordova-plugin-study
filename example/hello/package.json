@@ -14,13 +14,13 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^9.0.0",
-    "cordova-plugin-first-plugin": "file:../../cordova-plugin-first-plugin",
+    "cordova-plugin-activity": "file:../../cordova-plugin-activity",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-first-plugin": {}
+      "cordova-plugin-activity": {}
     },
     "platforms": [
       "android"

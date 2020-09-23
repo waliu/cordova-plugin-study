@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-activity" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FirstPlugin</name>
+    <js-module name="FirstPlugin" src="www/FirstPlugin.js">
+        <clobbers target="FirstPlugin"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="FirstPlugin">
+                <param name="android-package" value="cordova.plugin.first.plugin.FirstPlugin"/>
+            </feature>
+        </config-file>
+        <!--新增代码1 start-->
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="cordova.plugin.first.plugin.activity.FirstActivity"></activity>
+        </config-file>
+        <!--新增代码1 end -->
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/FirstPlugin.java" target-dir="src/cordova/plugin/first/plugin"/>
+        <!--新增代码2 start-->
+        <source-file src="src/android/activity/FirstActivity.java" target-dir="src/cordova/plugin/first/plugin/activity"/>
+        <resource-file src="src/android/layout/activity_first.xml" target="res/layout/activity_first.xml"/>
+        <!--新增代码2 end -->
+
+    </platform>
+</plugin>
