@@ -8,7 +8,9 @@ cordova-plugin-activity
      |-- src // 平台源码
          |-- android // Android 平台源码
              |-- activity // activity java 代码
+                  |-- FirstActivity.java //要新增加java代码
              |-- layout // activity layout 布局代码
+                  |-- activity_first.xml //要新新增的xml
              |-- FirstPlugin.java // 插件 主类
      |-- www // 调用原生的js代码 
      |-- package.json // 
