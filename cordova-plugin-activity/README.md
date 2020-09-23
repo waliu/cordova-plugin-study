@@ -94,8 +94,10 @@ public class FirstActivity extends Activity {
 ````
 ### 5.添加插件
 ````
- 到基于cordova的项目中，输入以下命令
+ // 到基于cordova的项目中，输入以下命令
  cordova plugin add [插件路径]
+ // 也可以安装我的示例插件
+ cordova plugin add https://github.com/waliu/cordova-plugin-study/tree/master/cordova-plugin-activity
 ````
 
 ### 6.js 调用示例
@@ -115,7 +117,7 @@ public class FirstActivity extends Activity {
 ### 7.插件最终效果
 ![调试图片](../img/cordova-plugin-activity/activity-img.png)
 
-#### 8.插件源码
+### 8.插件源码
 
 [js调用源码](./example) 
 
