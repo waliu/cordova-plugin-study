@@ -1,3 +1,8 @@
+## Cordova 自定义插件(android)
+````
+  特别注意 android 项目的包名 必须为 com.example.hello，否则编译不会通过。
+  
+````
 ### 1.安装命令工具
 ````
 $ npm i plugman -g
