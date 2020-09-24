@@ -171,11 +171,13 @@ debug 启动就能调试插件
 ### 12.插件最终效果
 ![调试图片](../img/cordova-plugin-first-plugin/success-img.png)
 
-#### 13.插件源码
+#### 13.资源下载
 
 [js调用源码](./example) 
 
 [插件源码](../cordova-plugin-first-plugin) 
+
+[测试apk下载](../cordova-plugin-activity/apk) 
 
 ### 14.如何调用一个原生的提示弹窗
 

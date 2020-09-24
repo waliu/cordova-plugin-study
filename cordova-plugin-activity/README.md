@@ -136,10 +136,12 @@ public class FirstActivity extends Activity {
 ### 7.插件最终效果
 ![调试图片](../img/cordova-plugin-activity/activity-img.png)
 
-### 8.插件源码
+### 8.资源下载
 
 [js调用源码](./example) 
 
-[插件源码](../cordova-plugin-activity)
+[插件源码](../cordova-plugin-first-plugin) 
+
+[测试apk下载](../cordova-plugin-activity/apk) 
 
 ### 联系我:QQ群 390736068
