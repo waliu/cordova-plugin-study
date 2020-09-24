@@ -119,7 +119,7 @@ public class FirstActivity extends Activity {
             console.log("请在真机或者模拟器运行");
         }
 ````
-#### typescript/ionic2 +调用示例
+#### typescript/ionic2+ 调用示例
 ````
         try {
             // console.log(window.FirstPlugin);
