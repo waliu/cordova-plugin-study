@@ -127,3 +127,4 @@ public class FirstActivity extends Activity {
 
 [插件源码](../cordova-plugin-activity)
 
+### 联系我:QQ群 390736068
