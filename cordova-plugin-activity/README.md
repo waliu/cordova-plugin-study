@@ -104,11 +104,26 @@ public class FirstActivity extends Activity {
  cordova plugin add https://github.com/waliu/cordova-plugin-study/tree/master/cordova-plugin-activity
 ````
 
-### 6.js 调用示例
+### 6. 调用示例
+#### js调用示例
 ````
         try {
             // console.log(window.FirstPlugin);
             window.FirstPlugin.testFirstPlugin((res)=>{
+                console.log(res);
+            },(error)=>{
+
+            },null);
+        } catch (e) {
+            console.log(e);
+            console.log("请在真机或者模拟器运行");
+        }
+````
+#### typescript/ionic2 +调用示例
+````
+        try {
+            // console.log(window.FirstPlugin);
+            (<any>window).FirstPlugin.testFirstPlugin((res)=>{
                 console.log(res);
             },(error)=>{
 

@@ -134,11 +134,26 @@ debug 启动就能调试插件
 ```
 
 
-### 11.js 调用示例
+### 11. 调用示例
+#### js调用示例
 ````
         try {
             // console.log(window.FirstPlugin);
             window.FirstPlugin.testFirstPlugin((res)=>{
+                console.log(res);
+            },(error)=>{
+
+            },null);
+        } catch (e) {
+            console.log(e);
+            console.log("请在真机或者模拟器运行");
+        }
+````
+#### typescript/ionic2 +调用示例
+````
+        try {
+            // console.log(window.FirstPlugin);
+            (<any>window).FirstPlugin.testFirstPlugin((res)=>{
                 console.log(res);
             },(error)=>{
 
