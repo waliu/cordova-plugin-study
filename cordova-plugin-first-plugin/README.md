@@ -6,7 +6,7 @@
 ### 1.安装命令工具
 ````
 $ npm i plugman -g
-mac 电脑：$ sudo npmi plugman -g)
+mac 电脑：$ sudo npm i plugman -g
 ````
 ### 2.创建第一个插件
 ````
